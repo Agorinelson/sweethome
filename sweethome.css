@@ -1,0 +1,490 @@
+ 
+ * {
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+body {
+	background-color: #F4F2F8;
+}
+
+.header {
+	width: 100%;
+	height: 400px;
+	background-image: url(headerbackground.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header h1 {
+	text-align: left;
+	color: #ffffff;
+	margin-left: 10%;
+	padding-top: 12%;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	font-family: times;
+}
+
+.header h5 {
+	text-align: left;
+	color: #ffffff;
+	margin-left: 10%;
+	margin-top: 2%;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	font-family: times;
+}
+
+.learnmore {
+	text-align: left;
+	color: #ffffff;
+	margin-left: 10%;
+	margin-top: 3%;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	display: block;
+	background: linear-gradient(132deg, #02307D, #763B79, #F5B341);
+	background-size: 150%;
+	width: 13%;
+	padding: 10px 0px 10px 40px;
+	border-radius: 50px;
+	font-family: Georgia
+}
+.learnmore:hover {
+	animation: BackgroundGradient 10s ease infinite;
+}
+@keyframes BackgroundGradient{
+ 	0% {background-position: 0% 40%}
+ 	50% {background-position: 100% 50%}
+ 	100% {background-position: 0% 50%}
+ }
+
+
+/* Second section*/
+
+.sectiontwo{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.sectiontwoleft {
+	width: 42%;
+	height: 400px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 7%;
+	background-image: url(image1.jpg);
+	background-size: cover;
+}
+
+.image1cover{
+	background-color: purple;
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+
+}
+
+.sectiontworight {
+	width: 40%;
+	height: 400px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 7%;
+}
+
+.sectiontworight h1{
+	margin-left: 4%;
+	margin-top: 4%;
+	font-family: times;
+}
+.sectiontworight p{
+	margin-left: 4%;
+	margin-top: 15%;
+	word-spacing: .5px;
+	letter-spacing: .8px;
+	line-height: 20px;
+	font-size: 15px;
+}
+#aboutus {
+	width: 35%;
+	text-align: center;
+	margin-left: 4%;
+	margin-top: 5%;
+	text-transform: uppercase;
+	padding-left: 3px;
+	height: auto;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+/* Third Section */
+
+.sectionthree{
+	clear: both;
+	width: 100%;
+	height: 400px;
+}
+
+.sectionthreeleft{
+	width: 35%;
+	height: 350px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 8%;
+}
+.sectionthreeleft h1{
+	margin-left: 4%;
+	font-family: times;
+	font-size: 45px;
+}
+.sectionthreeleft p{
+	margin-left: 4%;
+	margin-top: 10%;
+	word-spacing: .5px;
+	letter-spacing: .8px;
+	line-height: 20px;
+	font-size: 15px;
+}
+.sectionthreeleft #aboutus{
+	margin-top: 6%;
+}
+
+.sectionthreeright{
+	width: 47%;
+	height: 300px;
+	background-color: #314868;
+	float: right;
+	margin-top: 40px;
+
+}
+
+.sectionthreeright .img2and3{
+	width: 120%;
+	height: 250px;
+	margin-top: 25px;
+	margin-left: -20%;
+	display: inline-block;
+}
+
+.sectionthreeright .image2{
+	width: 65%;
+	float: left;
+	height: 100%;
+	
+}
+.sectionthreeright .image5{
+	width: 30%;
+	float: right;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* Section Four*/
+
+.sectionfour{
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.sectionfourleft {
+	width: 40%;
+	height: 400px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 7%;
+	background-image: url(sectionfourleft.jpg);
+	background-size: cover;
+}
+
+.image1cover{
+	background-color: purple;
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+
+}
+
+.sectionfourright {
+	width: 40%;
+	height: 400px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 7%;
+}
+
+.sectionfourright h1{
+	margin-left: 4%;
+	margin-top: 4%;
+	font-family: times;
+}
+.sectionfourright p{
+	margin-left: 4%;
+	margin-top: 15%;
+	word-spacing: .5px;
+	letter-spacing: .8px;
+	line-height: 20px;
+	font-size: 15px;
+}
+#aboutus {
+	width: 35%;
+	text-align: center;
+	margin-left: 4%;
+	margin-top: 5%;
+	text-transform: uppercase;
+	padding-left: 3px;
+	height: auto;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+/* Section Five*/
+
+.sectionfive{
+	clear: both;
+	width: 100%;
+	height: 450px;
+	background-color: #314868;
+	color: #fff;
+}
+.sectionfive h1{
+	text-align: center;
+	color: #fff;
+	padding-top: 3%;
+	font-family: times;
+	font-size: 37px;
+}
+
+.sectionfive .firstimage{
+	width: 28%;
+	height: 70%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+.firstimage img{
+	width: 100%;
+	height: 70%;
+	border: 5px solid #ffffff;
+}
+
+.firstimage h3{
+	margin-top: 4%;
+	font-family: times;
+}
+
+.firstimage p{
+	margin-top: 2%;
+	font-size: 13px;
+}
+
+.sectionfive .secondimage{
+	width: 28%;
+	height: 70%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 3%;
+}
+.secondimage img{
+	width: 100%;
+	height: 70%;
+	border: 5px solid #ffffff;
+}
+
+.secondimage h3{
+	margin-top: 4%;
+	font-family: times;
+}
+
+.secondimage p{
+	margin-top: 2%;
+	font-size: 13px;
+}
+
+.sectionfive .thirdimage{
+	width: 28%;
+	height: 70%;
+	float: right;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+
+.thirdimage img{
+	width: 100%;
+	height: 70%;
+	border: 5px solid #ffffff;
+}
+
+.thirdimage h3{
+	margin-top: 4%;
+	font-family: times;
+}
+
+.thirdimage p{
+	margin-top: 2%;
+	font-size: 13px;
+}
+
+/* Section six*/
+
+.sectionsix{
+	clear: both;
+	width: 100%;
+	height: 400px;
+}
+.sectionsix h1{
+	text-align: center;
+	font-family: times;
+	font-size: 30px;
+	padding-top: 4%;
+}
+
+.clientimage{
+	width: 20%;
+	margin-left: 10%;
+	float: left;
+	height: 50%;
+	margin-top: 3%;
+}
+.clientimage img{
+	width: 80%;
+	height: 80%;
+	margin-left: 10%;
+}
+
+.clientremark{
+	width: 58%;
+	height: 50%;
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+.clientremark p{
+	margin-left: 4%;
+	margin-top: 5%;
+	word-spacing: .5px;
+	letter-spacing: .8px;
+	line-height: 20px;
+	font-size: 14.4px;
+	width: 95%;
+}
+.clientremark h4{
+	margin-top: 2%;
+	margin-left: 4%;
+}
+.clientremark h5{
+	color: #9E2991;
+	margin-top: 1%;
+	margin-left: 4%;
+}
+
+/* Section seven */
+
+.sectionseven{
+	width: 100%;
+	height: 300px;
+	background-color: #314868;
+	color: #fff;
+}
+.project{
+	width: 100%;
+
+}
+
+.project h2{
+	text-align: center;
+	float: left;
+	margin-left: 20%;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: times;
+	margin-top: 5%;
+	width: 37%;
+}
+.project #moreprojects{
+	float: right;
+	width: 19%;
+	margin-right: 20%;
+	margin-top: 4%;
+	margin-left: -10%;
+	text-align: center;
+	color: #ffffff;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	display: block;
+	background: linear-gradient(132deg, #02307D, #763B79, #F5B341);
+	background-size: 150%;
+	padding: 18px 10px ;
+	border-radius: 50px;
+	font-family: Georgia;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+#moreprojects:hover {
+	animation: BackgroundGradient 5s ease infinite;
+}
+
+.footer{
+	width: 100%;
+	clear: both;
+}
+
+.leftfooter{
+	width: 20%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 6%;
+}
+.leftfooter h3{
+	font-family: times;
+	font-size: 15px;
+}
+
+.leftfooter ul{
+	margin-left: -25%;
+	margin-top: 8%;
+
+}
+
+.leftfooter li{
+	display: inline;
+	padding: 0px 10px;
+}
+
+.leftfooter li img{
+	width: 15%;
+	height: 15%;
+}
+
+.leftfooter p{
+	font-size: 12px;
+	margin-top: 8%;
+}
+
+.rightfooter{
+	width: 50%;
+	float: right;
+	margin-top: 16%;
+}
+.rightfooter ul{
+	margin-left: 12%;
+}
+.rightfooter li{
+	display: inline-block;
+	padding: 5px 15px;
+	font-size: 12px;
+}
+
+.rightfooter li:hover{
+	background-color: #F4F2F8;
+	color: #314868;
+	border-radius: 30%;
+	transition: all .8s  ;
+}
